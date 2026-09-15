@@ -179,9 +179,11 @@ span.button__67645.enabled__67645.redGlow__67645:hover {
 }
 
 .channelNotice_e2d7b8 {
-    background: var(--background-tertiary);
+    background: var(--background-primary);
     margin: 5px 5px 0px 5px;
     border-radius: 10px;
+    border: 1.5px solid var(--online-color);
+    backdrop-filter: blur(var(--app-blur));
 }
 
 .liveIndicator_e2d7b8 {
