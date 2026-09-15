@@ -80,7 +80,7 @@
     /* poll creation */
     border: 1px solid var(--highlight);
     background-color: var(--background-mentioned);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px) !important;
 }
 
 .checkboxSelected_f4f0eb {
