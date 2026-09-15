@@ -78,8 +78,7 @@
     --interactive-muted: rgba(180, 180, 180, 0.5) !important;
 
     --text-feedback-positive : var(--online-color) !important;
-    --control-primary-background-default: var(--highlight) !important;
-    --control-primary-border-hover: var(--highlight) !important;
+    --control-primary-background-default: var(--highlight-darker) !important;
 
     /* --- LOGHI E BRAND --- */
     --logo-primary: var(--highlight) !important;
