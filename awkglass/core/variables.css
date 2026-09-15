@@ -112,7 +112,7 @@
     --button-primary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
     
     --button-secondary-background: rgba(var(--rgb-highlight), 20%) !important;
-    --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%) !important;
+    --button-secondary-background-hover: rgba(var(--rgb-highlight), 40%) !important;
 
     /* --- UI GENERICA --- */
     --status-danger-background: rgb(var(--rgb-close-button)) !important;
