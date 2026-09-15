@@ -18,6 +18,14 @@
     background-color: transparent;
 }
 
+.container_abd9a8 {
+    backdrop-filter: blur(var(--app-blur));
+}
+
+.content_e9e3ed, .contentHeader_e9e3ed {
+    background-color: transparent;
+}
+
 .footer_d71945 {
     background-color: transparent !important;
     background: none;
