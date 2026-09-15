@@ -185,3 +185,11 @@
 .a98f3b020416ad54-searchResultsWrap {
     background-color: var(--background-secondary);
 }
+
+.theme-dark .staticToolbar_bba883{
+    background-color: transparent;
+}
+
+.topicContainer__0511a {
+    border-radius: 8px;
+}
