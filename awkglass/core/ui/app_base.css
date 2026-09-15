@@ -301,6 +301,10 @@ div[class*="backForwardButtons_"] div svg {
     height: 16.5px !important;
 }
 
-.button__85643.smallButton__85643:hover svg, .modalContentInner_e44912 {
+.button__85643.smallButton__85643:hover svg {
     background-color: transparent;
+}
+
+.modalContentInner_e44912 {
+    background-color: transparent !important;
 }
