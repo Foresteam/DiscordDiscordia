@@ -297,3 +297,9 @@ div[class*="tooltipContent_"] {
     padding: 4px 6px;
     font-weight: 200;
 }
+
+/* Pulsanti */
+.active_a22cb0 {
+    background-color: var(--button-background-static) !important;
+    border: 1px solid var(--button-background-static) !important;
+}
