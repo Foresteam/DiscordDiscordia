@@ -57,3 +57,42 @@
 
     --current-ver: "v25.1";
 }
+
+/*
+OVERRIDES: Tokyo Night transparent
+(requires Electron window transparency enabled through some tool, e.g. GoofCord)
+*/
+:root,
+.theme-dark {
+  /* --- BACKGROUND AND IMAGES --- */
+  /* Background Image */
+  --custom-image-url: rgba(26, 27, 38, 0.26);
+  --background-base-lowest: transparent;
+
+  /* Image blur (default: 8px) */
+  --app-blur: 0px;
+
+  --rgb-highlight: 122, 162, 247;
+
+  /* Danger/Close Button color */
+  --rgb-close-button: 247, 118, 142;
+
+  /* --- USER STATUS (RGB format) --- */
+  --rgb-online-color: 125, 207, 255; /* Online - Cyan/Blue */
+  --rgb-afk-color: 224, 175, 104; /* Idle - Yellow */
+  --rgb-dnd-color: 247, 118, 142; /* DnD - Red */
+  --rgb-streaming-color: 187, 154, 247; /* Streaming - Purple */
+
+  /* --- BACKGROUND LAYERS --- */
+  --background-primary: rgba(26, 27, 38, 0.26) !important; /* #1A1B26 */
+  --background-secondary: rgba(22, 22, 30, 0.5) !important; /* #16161E */
+  --background-tertiary: rgba(15, 15, 20, 0.815) !important; /* deeper panel */
+  --background-modifier-hover: rgba(41, 46, 66, 0.5); /* #292E42 */
+
+  --darkPurple-background: rgb(36, 40, 59); /* #24283B */
+
+  /* DEFINIZIONE COLORI SPECIFICI RICHIESTI */
+  --header-cat-rgb: 187, 154, 247; /* #BB9AF7 */
+  --text-lilac: rgb(187, 154, 247); /* #BB9AF7 */
+  --text-white: rgb(192, 202, 245); /* #C0CAF5 */
+}
