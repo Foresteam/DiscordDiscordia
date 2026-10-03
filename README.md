@@ -5,53 +5,59 @@
 
 <div align="center">
 
-# Lande della Discordia
+# Tokyo Night transparent Theme for Discord
 
-![Lande della Discordia v25.1](https://i.imgur.com/M9XnhiB.png)
-*screenshot from [latest](https://github.com/ungiglio/DiscordDiscordia/releases/latest) release*
+![Lande della Discordia v25.1](Screenshot.webp)
+_screenshot from [latest](https://github.com/Foresteam/DiscordTokyoNightTransparent/releases/latest) release_
+
 </div>
 
-A custom purple theme to enhance your Discord experience.
+A custom theme to enhance your Discord experience.
 
 ## About the Theme
 
-"Lande della Discordia" is a Discord theme created by [@ungiglio](https://discord.com/users/769144538107215872) to customize his own Discord client. Now available for everyone who wants to add a touch of elegance to their Discord interface.
+This is a "Lande della Discordia" theme by [@ungiglio](https://discord.com/users/769144538107215872), with Tokyo Night (Noctalia) color palette.
 
-The theme features a beautiful purple shade (#b266ff) that transforms your Discord experience into something truly unique.
+And is it actually transparent, so you can see other apps below (or the wallpaper in this case).
 
-## Installation [Vencord version]
+## Before installing...
 
-To install "Lande della Discordia" theme:
+The steps below are for Linux, they work for my Niri install, and worked for KDE (KvantumManager). The _tricky_ part here is **transparency** and **blur**.
 
-1. Download the theme files from [BetterDiscord's themes page](https://betterdiscord.app/theme/Lande%20della%20Discordia) or from this GitHub repository *[see [links](#links) section below]*
-2. Open your Discord client
-3. Navigate to Vencord > Themes
-4. Under "Local Themes", select "Open Themes Folder" and upload the downloaded file named "discordia.theme.css"
-5. Click "Load Missing Themes" and check the toggle near "Lande della Discordia" card
+To enable transparency you need a Discord client/plugin capable of that, a compositor, or both. So my <u>Linux</u> setup is:
 
-## Installation [BetterDiscord version]
+1. GoofCord for enabling transparency + theming (Vencord)
+2. Niri for blur (KDE + Kvantum will also do)
 
-To install "Lande della Discordia" theme:
+For <u>Windows</u> you can try tutorials such as [this one](https://www.debugboard.org/blog/discord-transparency-guide) (not affiliated with me, just first link on the search).
 
-1. Open your Discord client
-2. Go to discord settings. Near the very bottom, there should be a themes tab. Click it
-3. At the top of the themes page, open the themes store
-4. search for "Lande della Discordia" theme
+## Installation: GoofCord (Vencord)
+
+To install the theme:
+
+1. Open your GoofCord client
+2. Navigate to Vencord -> Themes
+   - Either:
+     1. Download the theme files from this GitHub repository _[see [links](#links) section below]_
+     2. Under "Local Themes", click upload and select "discordia.theme.css"
+   - Or: paste the URL in "Online themes" tab (this would always use the latest version): https://raw.githubusercontent.com/Foresteam/DiscordTokyoNightTransparent/refs/heads/main/discordia.theme.css
+3. Enable the theme
+4. Go to settings -> GoofCord -> settings, then toggle "Window transparency" on under Appearance tab
+5. Restart GoofCord
 
 ## Reporting Bugs
 
 If you encounter any issues or have suggestions for improving "Lande della Discordia", please:
 
-- Open an issue on our [GitHub repository](https://github.com/ungiglio/DiscordDiscordia/issues)
+- Open an issue on the original author's (as all core styles currently refer there, i just override) [GitHub repository](https://github.com/ungiglio/DiscordDiscordia/issues)
+- Or on mine [GitHub repository](https://github.com/Foresteam/DiscordTokyoNightTransparent/issues).
 
 ## Links
 
-- [Download Theme](https://github.com/ungiglio/DiscordDiscordia/releases/latest)
-- [BetterDiscord Download](https://betterdiscord.app/theme/Lande%20della%20Discordia)
+- [Download Theme](https://github.com/Foresteam/DiscordTokyoNightTransparent/releases/latest)
 - [Support Server](https://discord.gg/DDaRdZwB4h)
-- [BetterDiscord](https://betterdiscord.app)
 - [Vencord](https://vencord.dev)
 
 ---
 
-© 2025 ungiglio. All rights reserved.
+© 2026 Foresteam, ungiglio. All rights reserved.
